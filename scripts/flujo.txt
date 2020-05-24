@@ -1,0 +1,27 @@
+FLUJO RETO SEMANA 8
+
+REGISTROS
+    REGISTRAR UN LECTOR
+	REGISTRAR UNA EDITORIAL
+	REGISTRAR UN LIBRO
+	AGREGAR UN LIBRO A LA BIBLIOTECA
+		1 ELEGIR LIBRO
+		2 ELEGIR EDITORIAL
+		(Caso exista mostrar cantidad y permitir editar)
+
+PRESTAMOS Y DEVOLUCIONES
+	REGISTRAR UN PRESTAMO
+		1 BUSQUE UN LECTOR (id o dni)
+		2 [
+			BUSCAR LIBRO (NOMBRE,AUTOR O EDITORIAL)
+			(Mostrar el stock actual del libro)
+			(Agregar en caso el stock > 0)
+			Ingresar campos sin fecha_devolucion
+		] Accion repetible
+
+	REGISTRAR UNA DEVOLUCION
+		1 BUSQUE UN LECTOR 
+		(seleccionar un lector)
+		(validar existencia de prestamo y listar prestamos)
+		--
+		2 ELIJA EL LIBRO A DEVOLVER (accion repetible)
