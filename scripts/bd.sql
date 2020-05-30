@@ -1,8 +1,8 @@
 -- DATABASE NAME : reto_semana8
 DROP TABLE IF EXISTS alquiler;
 DROP TABLE IF EXISTS lector;
-DROP TABLE IF EXISTS editorial;
 DROP TABLE IF EXISTS libro;
+DROP TABLE IF EXISTS editorial;
 DROP TABLE IF EXISTS autor;
 
 create table editorial(

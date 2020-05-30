@@ -1,3 +1,6 @@
+from views.editorial_view import EditoriaL_view
+
+
 class VistaAplicacion:
 
     @staticmethod
@@ -39,7 +42,7 @@ class VistaAplicacion:
             if opcion == "1":
                 print("REGISTRANDO UN LECTOR")
             elif opcion == "2":
-                print("REGISTRANDO UNA EDITORIAL")
+                EditoriaL_view.main()
             elif opcion == "3":
                 print("REGISTRANDO UN LIBRO")
             elif opcion == "4":

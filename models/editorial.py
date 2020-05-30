@@ -1,4 +1,7 @@
-class Editorial:
+from models.model import Model
+
+
+class Editorial(Model):
 
     def __init__(self, nombre):
         self.nombre = nombre
